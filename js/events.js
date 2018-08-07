@@ -2,13 +2,13 @@
 
 $(document).ready(function(){
 
+$(getIt)
 // call functions here
 
 });
 
-$( "#target" ).click(function()
-  alert( "Handler for .click() called." );
+$( "p" ).getIt(function() {
+  alert( "Hey!" );
 });
-  
   
 
