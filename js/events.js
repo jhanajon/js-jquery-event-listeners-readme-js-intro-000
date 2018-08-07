@@ -11,10 +11,8 @@ $( "p" ).click(function() {
 }
 
 function frameIt() {
-  
+  $( "img" ).load(function() {
+  $("img").addClass("tasty");
+});
 }
 
-$( "img" ).load(function() {
-  $("img").addClass("intro");
-
-});
