@@ -15,6 +15,6 @@ function frameIt() {
 }
 
 $( "img" ).load(function() {
-  $("img").css({ border:1px solid #021a40;'});
+  $("img").css({'border:1px solid red;'});
 
 });
