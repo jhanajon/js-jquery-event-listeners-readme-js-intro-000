@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 });
 
-$(document).on('click',  getIt(click){
+$( "#target" ).click(function()
   
 )}
   
