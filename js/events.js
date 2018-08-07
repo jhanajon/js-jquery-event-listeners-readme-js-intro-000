@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 $(getIt)
+$(frameIt)
 });
 
 function getIt() {
@@ -12,7 +13,7 @@ $( "p" ).click(function() {
 
 function frameIt() {
   $( "img" ).load(function() {
-  $("img").addClass("tasty");
-});
+    $("img").addClass("tasty");
+  });
 }
 
