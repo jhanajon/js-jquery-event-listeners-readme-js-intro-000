@@ -15,5 +15,6 @@ function frameIt() {
 }
 
 $( "img" ).load(function() {
-  
+  $("img").css({outline: '35px'});
+
 });
