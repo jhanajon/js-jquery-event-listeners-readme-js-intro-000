@@ -13,3 +13,7 @@ $( "p" ).click(function() {
 function frameIt() {
   
 }
+
+$( "img" ).load(function() {
+  
+});
