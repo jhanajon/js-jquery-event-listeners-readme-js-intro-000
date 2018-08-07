@@ -1,14 +1,14 @@
 //define functions here
 
 $(document).ready(function(){
-$( "p" ).getIt(function() {
-  alert( "Hey!" );
-});
-  
 
+$(getIt)
 // call functions here
 
 });
 
-
+$( "p" ).getIt(function() {
+  alert( "Hey!" );
+});
+  
 
