@@ -7,7 +7,7 @@ $(getIt)
 
 });
 
-$( "p" ).getIt(function() {
+$( "p" ).click(function() {
   alert( "Hey!" );
 });
   
