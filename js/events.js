@@ -26,5 +26,11 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+  $("form").on("submit", function() {
+  if ($( "input" )) {
+    alert('your form is going to be submitted now');
+    }
+  });
 }
+
+
