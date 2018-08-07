@@ -6,6 +6,8 @@ $(document).ready(function(){
 
 });
 
-function getIt(){
+$(document).on('click',  getIt(click){
   
-}
+)}
+  
+
